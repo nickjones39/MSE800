@@ -24,13 +24,15 @@ Assessments:
 ```
 MSE800/
 └── activities/
-    ├── MSE800-Week1/   Weekly in-class/homework activities
-    ├── MSE800-Week2/   Weekly in-class/homework activities
-    └── ...             Additional weeks added as the course progresses
+    ├── MSE800-Week1-Activity1-2/   Week 1 — Activities 1–2
+    ├── MSE800-Week2-Activity5/     Week 2 — Activity 5
+    ├── MSE800-Week3-Activity4/     Week 3 — Activity 4
+    └── MSE800-Week3-Activity5/     Week 3 — Activity 5
 ```
 
-Each `activities/MSE800-WeekN` folder is self-contained, with its own README
-describing that week's activities, how to run them, and any dependencies.
+Each `activities/` folder is self-contained, with its own README describing
+that activity, how to run it, and any dependencies. Folders follow the
+`MSE800-WeekN-ActivityM` naming pattern (for example, `MSE800-Week3-Activity4`).
 
 Assignments (MSE800.1–MSE800.3) will be added as separate top-level folders
 alongside `activities/` once work on them begins.
