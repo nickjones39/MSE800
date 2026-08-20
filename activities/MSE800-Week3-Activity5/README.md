@@ -13,8 +13,8 @@ service) that reads and writes the database.
 
 ## 1. ER diagram
 
-The conceptual model is drawn in Chen notation in [`er_diagram.tex`](er_diagram.tex)
-(compiled PDF: `er_diagram.pdf`). It contains **four entities** and **three
+The conceptual model is drawn in Chen notation in [`er_diagram.tex`](docs/er_diagram.tex)
+(compiled PDF: `docs/er_diagram.pdf`). It contains **four entities** and **three
 relationships**, which form the chain an exchange follows:
 
 ```
@@ -199,9 +199,10 @@ MSE800-Week3-Activity5/
 ├── requirements.txt
 ├── .env.example
 ├── .gitignore
-├── er_diagram.tex        # Chen-notation ER diagram (TikZ)
-├── er_diagram.pdf        # compiled diagram
 ├── README.md
+├── docs/
+│   ├── er_diagram.tex    # Chen-notation ER diagram (TikZ)
+│   └── er_diagram.pdf    # compiled diagram
 ├── sql/
 │   └── queries.sql       # the two report queries
 └── src/

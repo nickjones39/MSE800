@@ -34,6 +34,9 @@ Each `activities/` folder is self-contained, with its own README describing
 that activity, how to run it, and any dependencies. Folders follow the
 `MSE800-WeekN-ActivityM` naming pattern (for example, `MSE800-Week3-Activity4`).
 
+Activities that produce documentation (for example, LaTeX/PDF ER diagrams) keep
+those files in a `docs/` subfolder inside the activity's own folder.
+
 Assignments (MSE800.1–MSE800.3) will be added as separate top-level folders
 alongside `activities/` once work on them begins.
 

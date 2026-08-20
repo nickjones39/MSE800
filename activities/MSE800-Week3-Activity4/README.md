@@ -12,12 +12,13 @@ questions.
 
 ## 1. Updated ER diagram
 
-The updated diagram is `er_diagram.tex` (Chen notation, drawn with TikZ). It is
-also pre-compiled to `er_diagram.pdf`.
+The updated diagram is `docs/er_diagram.tex` (Chen notation, drawn with TikZ).
+It is also pre-compiled to `docs/er_diagram.pdf`.
 
-To re-compile it:
+To re-compile it (from the `docs/` directory):
 
 ```bash
+cd docs
 pdflatex er_diagram.tex
 ```
 
@@ -123,8 +124,9 @@ MSE800-Week3-Activity4/
 ├── requirements.txt   # Python dependencies
 ├── .env.example       # connection-string template
 ├── .env               # your real connection string (git-ignored)
-├── er_diagram.tex     # updated ER diagram (TikZ/LaTeX)
-├── er_diagram.pdf     # compiled diagram
+├── docs/
+│   ├── er_diagram.tex # updated ER diagram (TikZ/LaTeX)
+│   └── er_diagram.pdf # compiled diagram
 ├── sql/
 │   └── queries.sql    # the two report queries
 └── src/
